@@ -1,0 +1,11 @@
+1. Add the following items to your qb-core/shared/items.lua
+
+['weed_lab_card'] = {['name'] = 'weed_lab_card', ['label'] = 'Weed Lab Card', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'weed_lab_card.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Access to entering the weed lab.'},
+['plastic_bags'] = {['name'] = 'plastic_bags', ['label'] = 'Plastic Baggie', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'plastic_bags.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'What could go in here?'},
+['scissors'] = {['name'] = 'scissors', ['label'] = 'Gardening Scissors', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'scissors.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Big old scissors'},
+['gloves'] = {['name'] = 'gloves', ['label'] = 'Gardening Gloves', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'gloves.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Protect from the grossness.'},
+['unprocessed_weed'] = {['name'] = 'unprocessed_weed', ['label'] = 'Raw Weed', ['weight'] = 100, ['type'] = 'item', ['image'] = 'unprocessed_weed.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Clean this stuff up!'},
+['cleaned_weed'] = {['name'] = 'cleaned_weed', ['label'] = 'Refined Weed', ['weight'] = 100, ['type'] = 'item', ['image'] = 'cleaned_weed.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Get it in baggys and sell it!'},
+['weed_baggy'] = {['name'] = 'weed_baggy', ['label'] = 'Weed Baggy', ['weight'] = 5000, ['type'] = 'item', ['image'] = 'weed_baggy.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Ready for the streets.'},
+
+2. Copy the images from /images/ to qb-inventory/html/images
